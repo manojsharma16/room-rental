@@ -24,9 +24,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+			  "./src/assets/css/style.css",
+			  "./src/assets/css/colors.css",
+			  "./src/assets/css/plugins.css"
             ],
-            "scripts": []
+            "scripts": [
+			  "./src/assets/js/main.js",
+			  "./src/assets/js/plugins.js",
+			  "./src/assets/js/vendor/jquery-1.12.4.min.js",
+			  "./src/assets/js/vendor/jquery-migrate.min.js",
+			  "./src/assets/js/vendor/modernizr-2.8.3.min.js",
+			 ]
           },
           "configurations": {
             "production": {
